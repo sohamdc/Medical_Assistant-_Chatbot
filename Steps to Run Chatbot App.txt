@@ -1,0 +1,24 @@
+Extract the zip file
+
+How to run Backend?
+Ans:
+    Create Enviornment: python -m venv env
+    .\env\Scripts\activate
+    pip install -r requirements.txt
+    python ./src/app.py
+
+
+How to run website with PHP and Database?
+
+Install Xampp server
+paste the hospital folder in xampp/htdocs
+run the xampp controller
+turn on apache http server on port 80
+turn on mysql server port 3306
+
+use phpmyadmin 
+create database of name called chetan
+import the contact_form.sql file
+
+open the browser
+http://localhost/hospital
